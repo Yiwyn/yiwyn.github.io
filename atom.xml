@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-03-28T16:31:57.992Z</updated>
+    <updated>2020-03-28T16:43:14.298Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -11,12 +11,19 @@
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
     <entry>
-        <title type="html"><![CDATA[语文]]></title>
+        <title type="html"><![CDATA[现代文学]]></title>
         <id>https://yiwyn.github.io/post/yu-wen/</id>
         <link href="https://yiwyn.github.io/post/yu-wen/">
         </link>
         <updated>2020-03-28T16:31:24.000Z</updated>
         <content type="html"><![CDATA[<p><strong>文学常识</strong></p>
+<blockquote>
+<p>鲁迅</p>
+<blockquote>
+<p>原名<strong>周树人</strong>,1918年五月发表的《狂人日记》是中国现代散文学史上第一篇现代体式创造的白话短篇小说，是中国小说史的伟大开端。<br>
+短篇集小说《呐喊》《彷徨》《故事新编》，散文诗集《野草》，散文集《朝花夕拾》，杂文集《华盖集》《南腔北调集》《且介亭杂文》。</p>
+</blockquote>
+</blockquote>
 ]]></content>
     </entry>
     <entry>
