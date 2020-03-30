@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-03-30T06:48:59.542Z</updated>
+    <updated>2020-03-30T08:15:35.836Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <entry>
+        <title type="html"><![CDATA[名句默写]]></title>
+        <id>https://yiwyn.github.io/post/ming-ju-mo-xie/</id>
+        <link href="https://yiwyn.github.io/post/ming-ju-mo-xie/">
+        </link>
+        <updated>2020-03-30T07:27:06.000Z</updated>
+        <content type="html"><![CDATA[<p>1.《采薇》:“<strong>昔我往矣，杨柳依依，今我来思，雨雪霏霏</strong>。”<br>
+2.《春江花月夜》：<strong>江天一色无纤尘，皎皎空中孤月轮</strong>。<br>
+3.李清照《醉花阴》“<strong>莫道不消魂，帘卷西风，人比黄花瘦</strong>。”<br>
+4.《采薇》中最为人称道的是： <strong>昔我往矣，杨柳依依，今我来思，雨雪霏霏</strong>。<br>
+5.<strong>慨当以慷，忧思难忘，何以解忧，唯有杜康</strong><br>
+6.苏轼《水调歌头》：<strong>但愿人长久，千里共婵娟</strong>。<br>
+7.李白《蜀道难》：“<strong>噫嘘唏！危乎高哉！蜀道之难，难于上青天</strong>。”<br>
+8.李清照《醉花阴》：<strong>莫道不消魂，帘卷西风，人比黄花瘦</strong>。<br>
+9.《红楼梦》第二十三回”西厢记妙词通戏语，牡丹亭艳曲警芳心。“中的一段文字：<strong>良辰美景奈何天，赏心乐事谁家院</strong>。”<br>
+10.王勃《滕王阁序》中最有名的一句：“<strong>落霞与孤鹜齐飞，秋水共长天一色</strong>。”<br>
+11.《诗经·小雅·采薇》：“<strong>昔我往矣，杨柳依依，今我来思，雨雪霏霏</strong>。”<br>
+12.白居易《长恨歌》：“<strong>天长地久有时尽，长恨绵绵无绝期</strong>。”<br>
+13.北朝民歌《敕勒歌》，描写北方大草原的诗句：“<strong>天苍苍，野茫茫，风吹草低见牛羊</strong>。”<br>
+14.“<strong>回眸一笑百媚生，六宫粉黛无颜色</strong>。”（《长恨歌》）<br>
+15.“<strong>良辰美景奈何天，赏心乐事谁家院</strong>。”（《惊梦》）<br>
+16.“<strong>蜀道之难，难于上青天，使人听此凋朱颜</strong>。”（《蜀道难》）<br>
+17.“<strong>不患寡而患不均，不患贫而患不安</strong>。”（《季氏将伐颛臾》）<br>
+18.“<strong>故远人不服，则修文德以来之，既来之，则安之</strong>”（《季氏将伐颛臾》）<br>
+19.“<strong>泰山不让土壤，故能成其大，河海不择细流，故能就其深；王者不却众庶，故能明其德</strong>。”（《谏逐客书》）<br>
+20.<strong>天有常度，地有常形，君子有常形，君子道其常，小人记其功</strong>。（《答客难》）<br>
+21.<strong>盖均无贫，和无寡，安无倾</strong>。（《季氏将伐颛臾》）<br>
+22.<strong>水至清则无鱼，人至察则无徒</strong>。（《答客难》）<br>
+23.<strong>以管窥天，以蠡测海，以莛撞钟</strong>。（《答客难》）<br>
+24.<strong>力拔山兮气盖世，时不利兮骓不逝。骓不逝兮可奈何，虞兮虞兮奈苦何！</strong>（《垓下之谓》）<br>
+25.<strong>《阳春》之曲，和者必寡，盛名之下，其实难副</strong>。（《遗黄琼书》）</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[现代文学-当代作家]]></title>
         <id>https://yiwyn.github.io/post/yu-wen/</id>
