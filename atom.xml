@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-03-31T08:18:42.770Z</updated>
+    <updated>2020-03-31T08:20:00.529Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -40,13 +40,11 @@
 B类标识10，128-191，主机数第二多，默认子网掩码255.255.0.0；<br>
 C类标识110，192-223，主机数最多254，默认子网掩码255.255.255.0；</p>
 </blockquote>
-<ul>
+</li>
 <li>在Excel2010中 ，SmartArt图形包括图形列表，流程图，更复杂的图形。</li>
 <li>操作系统的主要功能包括：<strong>处理机管理，存储管理，设备管理，文件管理，作业管理。</strong></li>
 <li>数据库中最常见的三类数据模型是 ：<strong>层次模型，网状模型，关系模型。</strong></li>
 <li>为了解决某一具体应用问题而设计的指令序列称为 <strong>程序</strong>。</li>
-</ul>
-</li>
 </ul>
 ]]></content>
     </entry>
