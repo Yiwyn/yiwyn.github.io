@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-01T08:40:28.866Z</updated>
+    <updated>2020-04-01T08:44:23.404Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -32,8 +32,8 @@ IP地址 ::={&lt;网络号&gt;,&lt;主机号&gt;}</p>
 <p><font size= 5><strong>IP地址的指派范围</strong></font><br>
 <img src="https://yiwyn.github.io/post-images/1585730012885.png" alt="" loading="lazy"></p>
 <ul>
-<li><font color=red>每个网络中最大主机数即是主机号所代表的二进制位可以代表的数量</font><br>
-例如:A类 主机号为24位 =&gt; 2^24 = 16777214</li>
+<li><font color=red>每个网络中最大主机数即是主机号所代表的二进制位可以代表-2的数量</font><br>
+例如:A类 主机号为24位 =&gt; 2^24 = 16777216 - 2 = 16777214</li>
 </ul>
 ]]></content>
     </entry>
