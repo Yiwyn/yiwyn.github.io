@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-03-31T15:48:42.576Z</updated>
+    <updated>2020-04-01T07:41:12.085Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <entry>
+        <title type="html"><![CDATA[ASCLL表]]></title>
+        <id>https://yiwyn.github.io/post/ascll-biao/</id>
+        <link href="https://yiwyn.github.io/post/ascll-biao/">
+        </link>
+        <updated>2020-04-01T07:37:50.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yiwyn.github.io/post-images/1585726766881.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[名句默写(二)]]></title>
         <id>https://yiwyn.github.io/post/ming-ju-mo-xie-er/</id>
