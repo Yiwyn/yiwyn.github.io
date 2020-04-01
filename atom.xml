@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-01T08:59:05.691Z</updated>
+    <updated>2020-04-01T23:42:24.981Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <entry>
+        <title type="html"><![CDATA[Word选项卡]]></title>
+        <id>https://yiwyn.github.io/post/word-xuan-xiang-qia/</id>
+        <link href="https://yiwyn.github.io/post/word-xuan-xiang-qia/">
+        </link>
+        <updated>2020-04-01T23:25:56.000Z</updated>
+        <content type="html"><![CDATA[<p><font size = 6><strong>Word</strong></font><br>
+<img src="https://yiwyn.github.io/post-images/1585784139919.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784198080.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784207763.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784219299.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784232445.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784244554.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784255016.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784264077.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784269628.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784281402.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784289173.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784492870.png" alt="" loading="lazy"><br>
+<img src="https://yiwyn.github.io/post-images/1585784499784.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[进制转换]]></title>
         <id>https://yiwyn.github.io/post/jin-zhi-zhuan-huan/</id>
