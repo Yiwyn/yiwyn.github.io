@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-01T07:44:28.707Z</updated>
+    <updated>2020-04-01T08:40:28.866Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,33 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <entry>
+        <title type="html"><![CDATA[IP地址相关知识点]]></title>
+        <id>https://yiwyn.github.io/post/ip-di-zhi-xiang-guan-zhi-shi-dian/</id>
+        <link href="https://yiwyn.github.io/post/ip-di-zhi-xiang-guan-zhi-shi-dian/">
+        </link>
+        <updated>2020-04-01T08:10:01.000Z</updated>
+        <content type="html"><![CDATA[<p><font size=5><strong>IP协议配套使用的三个协议</strong></font></p>
+<ul>
+<li><strong>地址解析协议ARP(Address Resolution Protocol)</strong></li>
+<li><strong>网际控制报文协议ICMP(Internet Control Message Protocol)</strong></li>
+<li><strong>网际组管理协议IGMP(Internet Group Management Protocol)</strong><br>
+<img src="https://yiwyn.github.io/post-images/1585729860375.png" alt="" loading="lazy"></li>
+</ul>
+<p><font size= 5><strong>IP地址</strong></font><br>
+IP地址 ::={&lt;网络号&gt;,&lt;主机号&gt;}</p>
+<blockquote>
+<p>::= 代表 &quot;定义为&quot;</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://yiwyn.github.io/post-images/1585729745292.png" alt="" loading="lazy"></figure>
+<p><font size= 5><strong>IP地址的指派范围</strong></font><br>
+<img src="https://yiwyn.github.io/post-images/1585730012885.png" alt="" loading="lazy"></p>
+<ul>
+<li><font color=red>每个网络中最大主机数即是主机号所代表的二进制位可以代表的数量</font><br>
+例如:A类 主机号为24位 =&gt; 2^24 = 16777214</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ASCII表]]></title>
         <id>https://yiwyn.github.io/post/ascll-biao/</id>
