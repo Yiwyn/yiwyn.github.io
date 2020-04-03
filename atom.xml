@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-03T03:06:55.749Z</updated>
+    <updated>2020-04-03T03:08:02.656Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -73,10 +73,18 @@ PPT 的模板文件扩展名为.potx</p>
 “，” 代表区域并集</p>
 </blockquote>
 <ul>
-<li>URL(<font color = red >Uniform Resource Locator</font>) 统一资源定位器</li>
-<li>SQL是数据库的重要工具：(<font color = red>Structured Query ;anguage</font>) 机构化的查询语言</li>
-<li>VOD的英文全写是:Video On Demanad,其含义是交互式多媒体点播业务</li>
-<li>按照计算机网络的<strong>拓扑结构与</strong>划分，可以将网络划分为 总线型、环型、星型，树型等</li>
+<li>
+<p>URL(<font color = red >Uniform Resource Locator</font>) 统一资源定位器</p>
+</li>
+<li>
+<p>SQL是数据库的重要工具：(<font color = red>Structured Query ;anguage</font>) 机构化的查询语言</p>
+</li>
+<li>
+<p>VOD的英文全写是:Video On Demanad,其含义是交互式多媒体点播业务</p>
+</li>
+<li>
+<p>按照计算机网络的<strong>拓扑结构与</strong>划分，可以将网络划分为 总线型、环型、星型，树型等</p>
+</li>
 </ul>
 ]]></content>
     </entry>
