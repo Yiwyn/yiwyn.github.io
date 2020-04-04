@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-03T03:08:02.656Z</updated>
+    <updated>2020-04-04T07:12:28.470Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <entry>
+        <title type="html"><![CDATA[反三角函数]]></title>
+        <id>https://yiwyn.github.io/post/fan-san-jiao-han-shu/</id>
+        <link href="https://yiwyn.github.io/post/fan-san-jiao-han-shu/">
+        </link>
+        <updated>2020-04-04T07:11:05.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yiwyn.github.io/post-images/1585984289962.jfif" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[计算机-琐碎知识点(二)]]></title>
         <id>https://yiwyn.github.io/post/ji-suan-ji-suo-sui-zhi-shi-dian-er/</id>
@@ -334,15 +343,6 @@ C类标识110，192-223，主机数最多254，默认子网掩码255.255.255.0�
 短篇集小说《呐喊》《彷徨》《故事新编》，散文诗集《野草》，散文集《朝花夕拾》，杂文集《华盖集》《南腔北调集》《且介亭杂文》。</p>
 </blockquote>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我的第一个博客]]></title>
-        <id>https://yiwyn.github.io/post/wo-de-di-yi-ge-bo-ke/</id>
-        <link href="https://yiwyn.github.io/post/wo-de-di-yi-ge-bo-ke/">
-        </link>
-        <updated>2020-03-28T11:21:58.000Z</updated>
-        <content type="html"><![CDATA[<p>测试文本,仅作为MarkDown的联系文本</p>
 ]]></content>
     </entry>
 </feed>
