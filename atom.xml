@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-09T17:57:30.900Z</updated>
+    <updated>2020-04-09T18:03:01.879Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <entry>
+        <title type="html"><![CDATA[定积分中值定理]]></title>
+        <id>https://yiwyn.github.io/post/ding-ji-fen-zhong-zhi-ding-li/</id>
+        <link href="https://yiwyn.github.io/post/ding-ji-fen-zhong-zhi-ding-li/">
+        </link>
+        <updated>2020-04-09T17:57:50.000Z</updated>
+        <content type="html"><![CDATA[<p>若函数在闭区间[a,b]上连续,则在积分区间[a,b]上至少存在一点k,使得下式成立:<br>
+∫<font size =0.5px>(a,b)</font> f(x) dx =f(k)(b-a)</p>
+<p>其中a,b,k 满足 a&lt;k&lt;b</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[微分中值定理]]></title>
         <id>https://yiwyn.github.io/post/wei-fen-zhong-zhi-ding-li/</id>
@@ -282,33 +293,6 @@ PPT 的模板文件扩展名为.potx</p>
 <li>1    f(15)   .   8</li>
 <li>十六进制为 1f.8</li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IP地址相关知识点]]></title>
-        <id>https://yiwyn.github.io/post/ip-di-zhi-xiang-guan-zhi-shi-dian/</id>
-        <link href="https://yiwyn.github.io/post/ip-di-zhi-xiang-guan-zhi-shi-dian/">
-        </link>
-        <updated>2020-04-01T08:10:01.000Z</updated>
-        <content type="html"><![CDATA[<p><font size=5><strong>IP协议配套使用的三个协议</strong></font></p>
-<ul>
-<li><strong>地址解析协议ARP(Address Resolution Protocol)</strong></li>
-<li><strong>网际控制报文协议ICMP(Internet Control Message Protocol)</strong></li>
-<li><strong>网际组管理协议IGMP(Internet Group Management Protocol)</strong><br>
-<img src="https://yiwyn.github.io/post-images/1585729860375.png" alt="" loading="lazy"></li>
-</ul>
-<p><font size= 5><strong>IP地址</strong></font><br>
-IP地址 ::={&lt;网络号&gt;,&lt;主机号&gt;}</p>
-<blockquote>
-<p>::= 代表 &quot;定义为&quot;</p>
-</blockquote>
-<figure data-type="image" tabindex="1"><img src="https://yiwyn.github.io/post-images/1585729745292.png" alt="" loading="lazy"></figure>
-<p><font size= 5><strong>IP地址的指派范围</strong></font><br>
-<img src="https://yiwyn.github.io/post-images/1585730012885.png" alt="" loading="lazy"></p>
-<ul>
-<li><font color=red>每个网络中最大主机数即是主机号所代表的二进制位可以代表-2的数量</font><br>
-例如:A类 主机号为24位 =&gt; 2^24 = 16777216 - 2 = 16777214</li>
-</ul>
 ]]></content>
     </entry>
 </feed>
