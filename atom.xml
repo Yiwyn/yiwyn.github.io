@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-09T09:31:58.670Z</updated>
+    <updated>2020-04-09T17:57:30.900Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <entry>
+        <title type="html"><![CDATA[微分中值定理]]></title>
+        <id>https://yiwyn.github.io/post/wei-fen-zhong-zhi-ding-li/</id>
+        <link href="https://yiwyn.github.io/post/wei-fen-zhong-zhi-ding-li/">
+        </link>
+        <updated>2020-04-09T17:47:22.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>罗尔中值定理</strong><br>
+如果函数  y = f(x) 满足以下三个条件</p>
+<ul>
+<li>在闭区间[a,b]上连续</li>
+<li>在开区间(a,b)上可导</li>
+<li>在区间端点处的函数值相等,即 f(a) = f(b)<br>
+<strong>那么在(a,b)区间内至少存在一点k (a&lt;k&lt;&gt;b) ,使得 f'(k) =0;</strong></li>
+</ul>
+<p><strong>拉格朗日中值定理</strong><br>
+如果函数  y = f(x) 满足以下两个条件</p>
+<ul>
+<li>在闭区间[a,b]上连续</li>
+<li>在开区间(a,b)上可导<br>
+**那么在区间(a,b)内至少存在一点k(a&lt;k&lt;b),使得下式成立:<br>
+f(b)-f(a) = f'(k)(b-a)</li>
+</ul>
+<p><font color = red><strong>Notes</strong><br>
+当f(a)=f(b)时,若使拉格朗日中值定理成立,则f'(k) = 0;<br>
+也就是说 , 罗尔中值定理是拉格朗日中值定理的一个特殊情况.<br>
+</font></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[高数函数单调区间]]></title>
         <id>https://yiwyn.github.io/post/gao-shu-han-shu-dan-diao-qu-jian/</id>
@@ -281,16 +309,6 @@ IP地址 ::={&lt;网络号&gt;,&lt;主机号&gt;}</p>
 <li><font color=red>每个网络中最大主机数即是主机号所代表的二进制位可以代表-2的数量</font><br>
 例如:A类 主机号为24位 =&gt; 2^24 = 16777216 - 2 = 16777214</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ASCII表]]></title>
-        <id>https://yiwyn.github.io/post/ascll-biao/</id>
-        <link href="https://yiwyn.github.io/post/ascll-biao/">
-        </link>
-        <updated>2020-04-01T07:37:50.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://yiwyn.github.io/post-images/1585726963139.jpg" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585726969591.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
