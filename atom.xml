@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-09T18:03:01.879Z</updated>
+    <updated>2020-04-09T19:30:39.453Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <entry>
+        <title type="html"><![CDATA[三角函数小知识点]]></title>
+        <id>https://yiwyn.github.io/post/san-jiao-han-shu-xiao-zhi-shi-dian/</id>
+        <link href="https://yiwyn.github.io/post/san-jiao-han-shu-xiao-zhi-shi-dian/">
+        </link>
+        <updated>2020-04-09T19:25:36.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>arcsinx + arccosx = Pi/2</li>
+<li>sin(arcsinx) = x</li>
+<li>cos(arccosx) = x</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[定积分中值定理]]></title>
         <id>https://yiwyn.github.io/post/ding-ji-fen-zhong-zhi-ding-li/</id>
@@ -267,32 +280,6 @@ PPT 的模板文件扩展名为.potx</p>
 <img src="https://yiwyn.github.io/post-images/1585784939794.png" alt="" loading="lazy"><br>
 <img src="https://yiwyn.github.io/post-images/1585784951904.png" alt="" loading="lazy"><br>
 <img src="https://yiwyn.github.io/post-images/1585784958408.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[进制转换]]></title>
-        <id>https://yiwyn.github.io/post/jin-zhi-zhuan-huan/</id>
-        <link href="https://yiwyn.github.io/post/jin-zhi-zhuan-huan/">
-        </link>
-        <updated>2020-04-01T08:46:12.000Z</updated>
-        <content type="html"><![CDATA[<p><font size= 5>二进制转八进制</font><br>
-2^3 = 8<br>
--&gt; <strong>三个二进制位代表一个八进制位</strong></p>
-<p>例如: 1111.1</p>
-<ol>
-<li>001 111.100</li>
-<li>1    7   .   4</li>
-<li>八进制为17.4</li>
-</ol>
-<p><font size= 5>二进制转十六进制</font><br>
-2^4 = 16<br>
--&gt;<strong>四个二进制位表示一个十六进制位</strong></p>
-<p>例如11111.1</p>
-<ol>
-<li>0001 1111.1000</li>
-<li>1    f(15)   .   8</li>
-<li>十六进制为 1f.8</li>
-</ol>
 ]]></content>
     </entry>
 </feed>
