@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
-    <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-09T19:30:39.453Z</updated>
+    <title>Yiwyn&apos;Blog</title>
+    <updated>2020-04-09T19:33:42.347Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <rights>All rights reserved 2020, Yiwyn&apos;Blog</rights>
     <entry>
         <title type="html"><![CDATA[三角函数小知识点]]></title>
         <id>https://yiwyn.github.io/post/san-jiao-han-shu-xiao-zhi-shi-dian/</id>
