@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Log</title>
-    <updated>2020-04-08T15:37:58.007Z</updated>
+    <updated>2020-04-09T09:31:58.670Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Log</rights>
+    <entry>
+        <title type="html"><![CDATA[高数函数单调区间]]></title>
+        <id>https://yiwyn.github.io/post/gao-shu-han-shu-dan-diao-qu-jian/</id>
+        <link href="https://yiwyn.github.io/post/gao-shu-han-shu-dan-diao-qu-jian/">
+        </link>
+        <updated>2020-04-09T09:29:02.000Z</updated>
+        <content type="html"><![CDATA[<h3>如果取键端点在函数定义域内,那么开闭区间随意;</br>
+如果区间端点不在函数定义域内,那么只能是开区间.</h3>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[计算机-琐碎知识点(三)]]></title>
         <id>https://yiwyn.github.io/post/ji-suan-ji-suo-sui-zhi-shi-dian-san/</id>
@@ -281,41 +291,6 @@ IP地址 ::={&lt;网络号&gt;,&lt;主机号&gt;}</p>
         <updated>2020-04-01T07:37:50.000Z</updated>
         <content type="html"><![CDATA[<p><img src="https://yiwyn.github.io/post-images/1585726963139.jpg" alt="" loading="lazy"><br>
 <img src="https://yiwyn.github.io/post-images/1585726969591.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[名句默写(二)]]></title>
-        <id>https://yiwyn.github.io/post/ming-ju-mo-xie-er/</id>
-        <link href="https://yiwyn.github.io/post/ming-ju-mo-xie-er/">
-        </link>
-        <updated>2020-03-31T15:08:43.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>1.峣峣者易折,皦皦者易污。（《遗黄琼书》）</li>
-<li>2.随信美而非吾土兮，曾何足以少留。（《登楼赋》）</li>
-<li>3.昔尼父之在陈兮，有归欤之叹息。（《登楼赋》）</li>
-<li>4.登山则情满于山，观海则意溢于海。（《神思》）</li>
-<li>5.故寂然凝虑，思接千载，情焉动容，视通万里。（《神思》）</li>
-<li>6.吟咏之间，吐纳珠玉之声，眉捷之间，卷舒风云之色。（《神思》）</li>
-<li>7.君子则不然，所守者道义，所行者忠信，所稀者名节。（《朋党论》）</li>
-<li>8.君子与君子以道为朋，小人与小人以利为朋，此自然之理也。（《朋党论》）</li>
-<li>9.以之修身，则同道而相益；以之事国，则同心而共济，始终如一，此君子之朋也。（《朋党论》）</li>
-<li>10.满招损，谦得益，谦受益。（《五代史伶官传序》）</li>
-<li>11.劳忧可以兴国，逸豫可以亡身。（《五代史伶官传序》）</li>
-<li>12.夫祸患积于忽微，而智勇多困于所溺。（《五代史伶官传序》）</li>
-<li>13.吾辈纵舟，酣睡于十里荷花之中，香气拘人，清梦甚惬。（《西湖七月半》）</li>
-<li>14.不愤不启，举一隅不以三隅反，则弗复也。（《孔子世家》）</li>
-<li>15.往者不可谏兮，来者犹可追也。（《孔子世家》）</li>
-<li>16.夫名不正则言不顺，言不顺则事不成，事不成则礼乐不兴，礼乐不兴则刑罚不中，刑罚不中则民无所错手足矣。（《孔子世家》）</li>
-<li>17.高山仰止，景行行止，虽不能至，然心向往知。（《孔子世家》）</li>
-<li>18.夜参半而不寐兮，怅盘桓以反侧。（《登楼赋》）</li>
-<li>19.《采薇》中以乐事衬哀情，以哀情衬乐事的诗句是：<strong>昔我往矣，杨柳依依。今我来思，雨雪霏霏。</strong></li>
-<li>20.李清照《醉花阴》中最令人称道的是：<strong>莫道不消魂，帘卷西风，人比黄花瘦</strong>。</li>
-<li>21.白居易《长恨歌》中衬托手法极写杨贵妃之美的诗句是：<strong>回眸一笑百媚生，六宫粉黛无颜色。</strong></li>
-<li>22.多行不义，必自毙，子姑待之。（《郑伯克段于鄢》）</li>
-<li>23.不义不昵，厚将崩。（《郑伯克段于鄢》）</li>
-<li>24.帝者与师处，王者与友处，霸者与臣处，亡国与役处。（《燕昭王求士》）</li>
-<li>25.夫仁者，己欲立而立人，己欲达而达人。（《论语》）</li>
-</ul>
 ]]></content>
     </entry>
 </feed>
