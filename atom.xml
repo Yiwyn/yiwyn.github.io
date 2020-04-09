@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Blog</title>
-    <updated>2020-04-09T19:39:16.724Z</updated>
+    <updated>2020-04-09T20:39:38.803Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[数字多媒体]]></title>
+        <id>https://yiwyn.github.io/post/ji-suan-ji/</id>
+        <link href="https://yiwyn.github.io/post/ji-suan-ji/">
+        </link>
+        <updated>2020-04-09T20:24:55.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>多媒体计算机</strong></p>
+<ul>
+<li>
+<p>数字多媒体计算机四大特点:<strong>多样性、交互性、集成性、实时性</strong></p>
+</li>
+<li>
+<p>多媒体计算机包括：<strong>计算机技术、通信技术、现代媒体技术</strong></p>
+</li>
+<li>
+<p>多媒体个人计算机：<strong>MPC</strong>，一般包括 光驱、音频卡、视频卡、交互控制接口等。</p>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[三角函数小知识点]]></title>
         <id>https://yiwyn.github.io/post/san-jiao-han-shu-xiao-zhi-shi-dian/</id>
@@ -258,28 +278,6 @@ PPT 的模板文件扩展名为.potx</p>
 <p>按照计算机网络的<strong>拓扑结构与</strong>划分，可以将网络划分为 总线型、环型、星型，树型等</p>
 </li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Word选项卡]]></title>
-        <id>https://yiwyn.github.io/post/word-xuan-xiang-qia/</id>
-        <link href="https://yiwyn.github.io/post/word-xuan-xiang-qia/">
-        </link>
-        <updated>2020-04-01T23:25:56.000Z</updated>
-        <content type="html"><![CDATA[<p><font size = 6><strong>Word</strong></font><br>
-<img src="https://yiwyn.github.io/post-images/1585784821136.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784842758.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784879536.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784888802.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784896799.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784903141.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784909769.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784922877.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784927402.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784934958.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784939794.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784951904.png" alt="" loading="lazy"><br>
-<img src="https://yiwyn.github.io/post-images/1585784958408.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
