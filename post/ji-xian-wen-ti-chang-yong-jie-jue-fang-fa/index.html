@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文言文虚词-之 | Yiwyn&#39;Blog</title>
+<title>极限问题常用解决方法 | Yiwyn&#39;Blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,12 +18,21 @@
 
 
 
-    <meta name="description" content="①&lt;动&gt;到...去。
-②&lt;代&gt;指示代词，相当于“这个、这、这种”等。
-③&lt;代&gt;第三人称代词，相当于“他、它、他们”等。
-④&lt;代&gt;指代说话者本人或者听话者的对方。
-⑤&lt;代&gt;第二人称代..." />
-    <meta name="keywords" content="语文" />
+    <meta name="description" content="极限存在的条件
+
+函数极限存在的充要条件:左右极限存在且相等
+
+常用的解决方法
+
+洛必达法则
+
+当要求计算的函数满足 0/0 or ∞/无穷 时,可以对其上下求导.
+
+
+熟练使用等价无穷小
+
+在进行下一步操作时可以先看一下等价无穷小是否可以..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -94,39 +103,57 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">文言文虚词-之</h2>
-            <div class="post-date">2020-04-06</div>
+            <h2 class="post-title">极限问题常用解决方法</h2>
+            <div class="post-date">2020-04-11</div>
             
             <div class="post-content" v-pre>
-              <p>①&lt;动&gt;到...去。<br>
-②&lt;代&gt;指示代词，相当于“这个、这、这种”等。<br>
-③&lt;代&gt;第三人称代词，相当于“他、它、他们”等。<br>
-④&lt;代&gt;指代说话者本人或者听话者的对方。<br>
-⑤&lt;代&gt;第二人称代词，相当于“你、您”。<br>
-⑥&lt;助&gt;用在定语和中心词之间，表示修饰、领属关系，相当于“的”。<br>
-⑦&lt;助&gt;用在主谓之间，取消句子独立性，一般不译出。<br>
-⑧&lt;助&gt;定语后置的标志。<br>
-⑨&lt;助&gt;补语的标志。<br>
-⑩&lt;助&gt;用宾语前置的标志。<br>
-(11)&lt;助&gt;用在表示时间的副词后，补足音节，没有实意。<br>
-(12)&lt;助&gt;用在“前、后、内、外”等词语和它们的修饰词之间，表示对方位、时间、范围等的限制。</p>
+              <p><strong>极限存在的条件</strong></p>
+<blockquote>
+<p>函数极限存在的充要条件:左右极限存在且相等</p>
+</blockquote>
+<p><strong>常用的解决方法</strong></p>
+<ul>
+<li>洛必达法则
+<blockquote>
+<p>当要求计算的函数满足 0/0 or ∞/无穷 时,可以对其上下求导.</p>
+</blockquote>
+</li>
+<li>熟练使用等价无穷小
+<blockquote>
+<p>在进行下一步操作时可以先看一下等价无穷小是否可以减少问题的复杂度</p>
+</blockquote>
+</li>
+<li>直接带入
+<blockquote>
+<p>简单粗暴,能直接带入计算的就带入.</p>
+</blockquote>
+</li>
+<li>两个重要极限<br>
+当x -&gt; 0时 sinx/x=1    (1+x)^(1/x) = e</li>
+</ul>
+<p><font color = red  size =6> 小技巧</font></p>
+<ul>
+<li>当x -&gt; +∞ 时
+<blockquote>
+<p>x+1 =x 显而易见 可以扩展到 x + C = x (无穷大的数不受影响)<br>
+同理(x^2 + x )/(x+1)  -&gt; 则可以变成 (x^2 + x )/x  -&gt;进一步化简发现 (x+1)/1-&gt;x<br>
+根据上面的式子我们可以推断出:<br>
+当无穷和常数加减运算时可以直接省去常数. 同样的 而分子分母同时出现x的情况下 同时除x也可以得到 x+常数的情况 .</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>举个例子:(sqrt()表示根号)</strong><br>
+lim(x -&gt;+∞)  x/[sqrt(x^2 +1) + x]<br>
+=  x/[sqrt(x^2)+x] = x/(x+x) = 1/2</p>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://yiwyn.github.io/tag/GdUwJcgiT/" class="tag">
-                    语文
-                  </a>
-                
-              </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://yiwyn.github.io/post/shu-xue-ji-xian-chang-yong-de-deng-jie-wu-qiong-xiao/">
+                <a href="https://yiwyn.github.io/post/shu-ju-ku-zhi-shi-dian/">
                   <h3 class="post-title">
-                    数学极限-常用的等价无穷小
+                    数据库知识点
                   </h3>
                 </a>
               </div>

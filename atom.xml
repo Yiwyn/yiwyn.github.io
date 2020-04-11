@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Blog</title>
-    <updated>2020-04-09T20:39:38.803Z</updated>
+    <updated>2020-04-11T16:01:57.512Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,81 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[极限问题常用解决方法]]></title>
+        <id>https://yiwyn.github.io/post/ji-xian-wen-ti-chang-yong-jie-jue-fang-fa/</id>
+        <link href="https://yiwyn.github.io/post/ji-xian-wen-ti-chang-yong-jie-jue-fang-fa/">
+        </link>
+        <updated>2020-04-11T15:30:20.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>极限存在的条件</strong></p>
+<blockquote>
+<p>函数极限存在的充要条件:左右极限存在且相等</p>
+</blockquote>
+<p><strong>常用的解决方法</strong></p>
+<ul>
+<li>洛必达法则
+<blockquote>
+<p>当要求计算的函数满足 0/0 or ∞/无穷 时,可以对其上下求导.</p>
+</blockquote>
+</li>
+<li>熟练使用等价无穷小
+<blockquote>
+<p>在进行下一步操作时可以先看一下等价无穷小是否可以减少问题的复杂度</p>
+</blockquote>
+</li>
+<li>直接带入
+<blockquote>
+<p>简单粗暴,能直接带入计算的就带入.</p>
+</blockquote>
+</li>
+<li>两个重要极限<br>
+当x -&gt; 0时 sinx/x=1    (1+x)^(1/x) = e</li>
+</ul>
+<p><font color = red  size =6> 小技巧</font></p>
+<ul>
+<li>当x -&gt; +∞ 时
+<blockquote>
+<p>x+1 =x 显而易见 可以扩展到 x + C = x (无穷大的数不受影响)<br>
+同理(x^2 + x )/(x+1)  -&gt; 则可以变成 (x^2 + x )/x  -&gt;进一步化简发现 (x+1)/1-&gt;x<br>
+根据上面的式子我们可以推断出:<br>
+当无穷和常数加减运算时可以直接省去常数. 同样的 而分子分母同时出现x的情况下 同时除x也可以得到 x+常数的情况 .</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>举个例子:(sqrt()表示根号)</strong><br>
+lim(x -&gt;+∞)  x/[sqrt(x^2 +1) + x]<br>
+=  x/[sqrt(x^2)+x] = x/(x+x) = 1/2</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据库知识点]]></title>
+        <id>https://yiwyn.github.io/post/shu-ju-ku-zhi-shi-dian/</id>
+        <link href="https://yiwyn.github.io/post/shu-ju-ku-zhi-shi-dian/">
+        </link>
+        <updated>2020-04-09T20:43:27.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>
+<p>数据库：DB（DataBase）</p>
+</li>
+<li>
+<p>数据库管理系统：DBMS （Data Base Manager System），是科学组织数据和存储数据，并高效获取和维护数据任务的一个<strong>系统软件</strong>，是位于用户和操作系统之间的数据管理软件。是DBS（数据库系统）的核心。</p>
+</li>
+<li>
+<p>数据库系统：DBS，指在计算机系统中引入数据库后的系统<br>
+包括</p>
+<blockquote>
+<p>硬件系统<br>
+系统软件（操作系统，开发软件，DBMS等）<br>
+数据库应用系统（DBAS,application）<br>
+各类人员（DBA，系统分析员，应用程序员，用户）</p>
+</blockquote>
+</li>
+<li>
+<p>数据库系统的特点：数据结构化（同文件系统的本质区别）、数据共享性好、数据独立性好、数据存储粒度小、为用户提供友好接口</p>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数字多媒体]]></title>
         <id>https://yiwyn.github.io/post/ji-suan-ji/</id>
@@ -189,93 +264,6 @@ f(b)-f(a) = f'(k)(b-a)</li>
 </li>
 <li>
 <p>(1+x)^(1/n) -1 ~ x/n</p>
-</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[反三角函数]]></title>
-        <id>https://yiwyn.github.io/post/fan-san-jiao-han-shu/</id>
-        <link href="https://yiwyn.github.io/post/fan-san-jiao-han-shu/">
-        </link>
-        <updated>2020-04-04T07:11:05.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yiwyn.github.io/post-images/1585984289962.jfif" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[计算机-琐碎知识点(二)]]></title>
-        <id>https://yiwyn.github.io/post/ji-suan-ji-suo-sui-zhi-shi-dian-er/</id>
-        <link href="https://yiwyn.github.io/post/ji-suan-ji-suo-sui-zhi-shi-dian-er/">
-        </link>
-        <updated>2020-04-03T02:45:27.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>
-<p>在PPT中，新建演示文稿时，不会默认常见幻灯片。</p>
-</li>
-<li>
-<p>Execl 2010 中，模板文件的默认扩展名为.xltx</p>
-<blockquote>
-<p>扩展：Word 的模板文件扩展名为.dotx<br>
-PPT 的模板文件扩展名为.potx</p>
-</blockquote>
-</li>
-<li>
-<p>防火墙通常用在WAN和LAN之间</p>
-</li>
-<li>
-<p>在 Internet 提供的服务中，Telnet指的是远程登录服务</p>
-</li>
-<li>
-<p>一个汉字国标码和计算机内码都要占两个字节</p>
-</li>
-<li>
-<p>在Excel 中 ，Average函数有<strong>多个</strong>参数</p>
-</li>
-<li>
-<p>SQLServer 属于系统软件</p>
-</li>
-<li>
-<p>在Excel 中，（81）代表-81，右对齐，（-81）为（-81），左对齐</p>
-</li>
-<li>
-<p>在Excel 中，可以设置打印区域，并且可以插入分隔符（分页）</p>
-</li>
-<li>
-<p>Internet的雏形是ARPANet</p>
-</li>
-<li>
-<p>在Internet中传输信息只少有三个协议：网际协议，传输协议，应用程序协议</p>
-</li>
-<li>
-<p>在Inernet中具有分层结构，物理网、协议、应用软件、信息 四层组成</p>
-</li>
-<li>
-<p>在Word、Excel、ppt中不存在“打印预览”命令</p>
-</li>
-<li>
-<p>DreamWeaver （DW）可以生成跨平台和跨浏览器的网页和网站</p>
-</li>
-<li>
-<p>在Excel 中单元格引用运算符</p>
-</li>
-</ul>
-<blockquote>
-<p>“：” 区域表示运算符<br>
-“ （space）” 代表区域的交集<br>
-“，” 代表区域并集</p>
-</blockquote>
-<ul>
-<li>
-<p>URL(<font color = red >Uniform Resource Locator</font>) 统一资源定位器</p>
-</li>
-<li>
-<p>SQL是数据库的重要工具：(<font color = red>Structured Query ;anguage</font>) 机构化的查询语言</p>
-</li>
-<li>
-<p>VOD的英文全写是:Video On Demanad,其含义是交互式多媒体点播业务</p>
-</li>
-<li>
-<p>按照计算机网络的<strong>拓扑结构与</strong>划分，可以将网络划分为 总线型、环型、星型，树型等</p>
 </li>
 </ul>
 ]]></content>
