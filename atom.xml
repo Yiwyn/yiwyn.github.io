@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Blog</title>
-    <updated>2020-04-15T12:46:25.911Z</updated>
+    <updated>2020-04-23T21:11:35.140Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Unity Standard Shader 的一些小知识]]></title>
+        <id>https://yiwyn.github.io/post/unity-standard-shader-de-yi-xie-xiao-zhi-shi/</id>
+        <link href="https://yiwyn.github.io/post/unity-standard-shader-de-yi-xie-xiao-zhi-shi/">
+        </link>
+        <updated>2020-04-23T20:55:53.000Z</updated>
+        <content type="html"><![CDATA[<p>[参考地址] <a href="https://docs.unity3d.com/Manual/MaterialsAccessingViaScript.html">https://docs.unity3d.com/Manual/MaterialsAccessingViaScript.html</a><br>
+使用代码动态激活Emission</p>
+<pre><code>material.EnableKeyword(&quot;_EMISSION&quot;);
+//程序执行后材质的Emission开关就会打开
+</code></pre>
+<p>那么如何修改Emission 的强度呢-也就是动态修改HDR Color 下的<strong>Intensity</strong> 值<br>
+这里的修改方法还是很简单的</p>
+<pre><code>material.SetColor(&quot;_EmissionColor&quot;,new Color(r,g,b)*intensity);
+//只需要在原来的基础上乘以相应的系数就可以了</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[计算机网络OSI体系结构]]></title>
         <id>https://yiwyn.github.io/post/OSI/</id>
@@ -885,16 +902,6 @@ f(b)-f(a) = f'(k)(b-a)</li>
 当f(a)=f(b)时,若使拉格朗日中值定理成立,则f'(k) = 0;<br>
 也就是说 , 罗尔中值定理是拉格朗日中值定理的一个特殊情况.<br>
 </font></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[高数函数单调区间]]></title>
-        <id>https://yiwyn.github.io/post/gao-shu-han-shu-dan-diao-qu-jian/</id>
-        <link href="https://yiwyn.github.io/post/gao-shu-han-shu-dan-diao-qu-jian/">
-        </link>
-        <updated>2020-04-09T09:29:02.000Z</updated>
-        <content type="html"><![CDATA[<h3>如果取键端点在函数定义域内,那么开闭区间随意;</br>
-如果区间端点不在函数定义域内,那么只能是开区间.</h3>
 ]]></content>
     </entry>
 </feed>
