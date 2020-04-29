@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Blog</title>
-    <updated>2020-04-23T21:11:35.140Z</updated>
+    <updated>2020-04-29T02:00:41.860Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,33 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[常见的文件后缀名]]></title>
+        <id>https://yiwyn.github.io/post/chang-jian-de-wen-jian-hou-zhui-ming/</id>
+        <link href="https://yiwyn.github.io/post/chang-jian-de-wen-jian-hou-zhui-ming/">
+        </link>
+        <updated>2020-04-29T01:55:05.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>音频</strong><br>
+.WAV .WMA .MP3 .MIDI .AU .SND<br>
+<strong>视频</strong><br>
+AVI MPG MPEG WMV ASF MOV<br>
+<strong>图片</strong><br>
+BMP JPEG GIF TIFF PSD PNG PCX PDC PIC</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[存储程序的工作原理]]></title>
+        <id>https://yiwyn.github.io/post/cun-chu-cheng-xu-de-gong-zuo-yuan-li/</id>
+        <link href="https://yiwyn.github.io/post/cun-chu-cheng-xu-de-gong-zuo-yuan-li/">
+        </link>
+        <updated>2020-04-29T01:46:43.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>1.<strong>指令:<strong>是指示计算机执行某种操作的命令,它是由一串二进制数码组成,这串二进制数码包括</strong>操作码</strong>和<strong>地址码</strong>两部分.</li>
+<li>2.<strong>程序</strong>:由一系列指令组成,为解决某一问题而设计的一系列排列有序的指令的集合</li>
+<li>3.<strong>存储程序工作原理:<strong>计算机能够自动完成计算或者处理过程的基础. 由美籍匈牙利科学家</strong>冯诺伊曼</strong>提出.基本思想是<strong>存储程序</strong>和<strong>程序控制</strong>.</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unity Standard Shader 的一些小知识]]></title>
         <id>https://yiwyn.github.io/post/unity-standard-shader-de-yi-xie-xiao-zhi-shi/</id>
@@ -863,45 +890,6 @@ lim(x -&gt;+∞)  x/[sqrt(x^2 +1) + x]<br>
 <li>sin(arcsinx) = x</li>
 <li>cos(arccosx) = x</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[定积分中值定理]]></title>
-        <id>https://yiwyn.github.io/post/ding-ji-fen-zhong-zhi-ding-li/</id>
-        <link href="https://yiwyn.github.io/post/ding-ji-fen-zhong-zhi-ding-li/">
-        </link>
-        <updated>2020-04-09T17:57:50.000Z</updated>
-        <content type="html"><![CDATA[<p>若函数在闭区间[a,b]上连续,则在积分区间[a,b]上至少存在一点k,使得下式成立:<br>
-∫<font size =0.5px>(a,b)</font> f(x) dx =f(k)(b-a)</p>
-<p>其中a,b,k 满足 a&lt;k&lt;b</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[微分中值定理]]></title>
-        <id>https://yiwyn.github.io/post/wei-fen-zhong-zhi-ding-li/</id>
-        <link href="https://yiwyn.github.io/post/wei-fen-zhong-zhi-ding-li/">
-        </link>
-        <updated>2020-04-09T17:47:22.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>罗尔中值定理</strong><br>
-如果函数  y = f(x) 满足以下三个条件</p>
-<ul>
-<li>在闭区间[a,b]上连续</li>
-<li>在开区间(a,b)上可导</li>
-<li>在区间端点处的函数值相等,即 f(a) = f(b)<br>
-<strong>那么在(a,b)区间内至少存在一点k (a&lt;k&lt;&gt;b) ,使得 f'(k) =0;</strong></li>
-</ul>
-<p><strong>拉格朗日中值定理</strong><br>
-如果函数  y = f(x) 满足以下两个条件</p>
-<ul>
-<li>在闭区间[a,b]上连续</li>
-<li>在开区间(a,b)上可导<br>
-**那么在区间(a,b)内至少存在一点k(a&lt;k&lt;b),使得下式成立:<br>
-f(b)-f(a) = f'(k)(b-a)</li>
-</ul>
-<p><font color = red><strong>Notes</strong><br>
-当f(a)=f(b)时,若使拉格朗日中值定理成立,则f'(k) = 0;<br>
-也就是说 , 罗尔中值定理是拉格朗日中值定理的一个特殊情况.<br>
-</font></p>
 ]]></content>
     </entry>
 </feed>
