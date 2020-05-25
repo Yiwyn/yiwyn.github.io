@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>存储程序的工作原理 | Yiwyn&#39;Blog</title>
+<title>SQL语句及其通配符 | Yiwyn&#39;Blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,10 +18,13 @@
 
 
 
-    <meta name="description" content="
-1.指令:是指示计算机执行某种操作的命令,它是由一串二进制数码组成,这串二进制数码包括操作码和地址码两部分.
-2.程序:由一系列指令组成,为解决某一问题而设计的一系列排列有序的指令的集合
-3.存储程序工作原理:计算机能够自动完成计算或者处..." />
+    <meta name="description" content="SELET字段列表,[INTO 目标表]
+FROM        名
+WHERE       条件
+[ORDER BY 字段]
+[GROUP BY 字段 HAVING 条件]
+如果字段列表用*表示,则表示所有字段
+如果字段列表是从所有字段中..." />
     <meta name="keywords" content="计算机" />
   </head>
   <body>
@@ -93,15 +96,27 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">存储程序的工作原理</h2>
-            <div class="post-date">2020-04-29</div>
+            <h2 class="post-title">SQL语句及其通配符</h2>
+            <div class="post-date">2020-05-26</div>
             
             <div class="post-content" v-pre>
-              <ul>
-<li>1.<strong>指令:<strong>是指示计算机执行某种操作的命令,它是由一串二进制数码组成,这串二进制数码包括</strong>操作码</strong>和<strong>地址码</strong>两部分.</li>
-<li>2.<strong>程序</strong>:由一系列指令组成,为解决某一问题而设计的一系列排列有序的指令的集合</li>
-<li>3.<strong>存储程序工作原理:<strong>计算机能够自动完成计算或者处理过程的基础. 由美籍匈牙利科学家</strong>冯诺伊曼</strong>提出.基本思想是<strong>存储程序</strong>和<strong>程序控制</strong>.</li>
-</ul>
+              <p>SELET字段列表,[INTO 目标表]<br>
+FROM        名<br>
+WHERE       条件<br>
+[ORDER BY 字段]<br>
+[GROUP BY 字段 HAVING 条件]<br>
+如果字段列表用*表示,则表示所有字段<br>
+如果字段列表是从所有字段中选择部分字段,则是<strong>投影运算</strong></p>
+<pre><code>更新:UPDATE 表名    set 字段     = 表达式[WHERE 条件]
+    Eg1.UPDATE 考生表 set 录取 = &quot;是&quot; WHERE 分数&gt;=100
+
+插入:INSERT INTO 表名(字段列表) VALUES(内容列表)
+
+删除:DELETE FROM 表名[WHERE 条件]
+
+通配符:
+        % :任意多字符,用于模糊查询,line,
+        _:任意一个字符</code></pre>
 
             </div>
             
@@ -116,9 +131,9 @@
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://yiwyn.github.io/post/unity-standard-shader-de-yi-xie-xiao-zhi-shi/">
+                <a href="https://yiwyn.github.io/post/chang-jian-de-wen-jian-hou-zhui-ming/">
                   <h3 class="post-title">
-                    Unity Standard Shader 的一些小知识
+                    常见的文件后缀名
                   </h3>
                 </a>
               </div>

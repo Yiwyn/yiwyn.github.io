@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Blog</title>
-    <updated>2020-05-25T05:57:16.248Z</updated>
+    <updated>2020-05-25T16:47:01.312Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[SQL语句及其通配符]]></title>
+        <id>https://yiwyn.github.io/post/sql-yu-ju-ji-qi-tong-pei-fu/</id>
+        <link href="https://yiwyn.github.io/post/sql-yu-ju-ji-qi-tong-pei-fu/">
+        </link>
+        <updated>2020-05-25T16:21:27.000Z</updated>
+        <content type="html"><![CDATA[<p>SELET字段列表,[INTO 目标表]<br>
+FROM        名<br>
+WHERE       条件<br>
+[ORDER BY 字段]<br>
+[GROUP BY 字段 HAVING 条件]<br>
+如果字段列表用*表示,则表示所有字段<br>
+如果字段列表是从所有字段中选择部分字段,则是<strong>投影运算</strong></p>
+<pre><code>更新:UPDATE 表名    set 字段     = 表达式[WHERE 条件]
+    Eg1.UPDATE 考生表 set 录取 = &quot;是&quot; WHERE 分数&gt;=100
+
+插入:INSERT INTO 表名(字段列表) VALUES(内容列表)
+
+删除:DELETE FROM 表名[WHERE 条件]
+
+通配符:
+        % :任意多字符,用于模糊查询,line,
+        _:任意一个字符</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[常见的文件后缀名]]></title>
         <id>https://yiwyn.github.io/post/chang-jian-de-wen-jian-hou-zhui-ming/</id>
@@ -894,19 +919,6 @@ lim(x -&gt;+∞)  x/[sqrt(x^2 +1) + x]<br>
 <li>
 <p>多媒体个人计算机：<strong>MPC</strong>，一般包括 光驱、音频卡、视频卡、交互控制接口等。</p>
 </li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[三角函数小知识点]]></title>
-        <id>https://yiwyn.github.io/post/san-jiao-han-shu-xiao-zhi-shi-dian/</id>
-        <link href="https://yiwyn.github.io/post/san-jiao-han-shu-xiao-zhi-shi-dian/">
-        </link>
-        <updated>2020-04-09T19:25:36.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>arcsinx + arccosx = Pi/2</li>
-<li>sin(arcsinx) = x</li>
-<li>cos(arccosx) = x</li>
 </ul>
 ]]></content>
     </entry>
