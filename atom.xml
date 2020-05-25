@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Blog</title>
-    <updated>2020-05-25T17:47:59.534Z</updated>
+    <updated>2020-05-25T17:52:31.316Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[窗口辨识！]]></title>
+        <id>https://yiwyn.github.io/post/chuang-kou-bian-shi/</id>
+        <link href="https://yiwyn.github.io/post/chuang-kou-bian-shi/">
+        </link>
+        <updated>2020-05-25T17:49:09.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>普通窗口和对话框</strong><br>
+对话框的大小不能改变，可以移动。</p>
+<p><strong>模式对话框和非模式对话框</strong></p>
+<ul>
+<li>模式对话框：同母窗体无法切换（字体/段落）</li>
+<li>非模式对话框：相反（查找、替换对话框）</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Access2010知识点]]></title>
         <id>https://yiwyn.github.io/post/access2010-zhi-shi-dian/</id>
@@ -885,56 +900,6 @@ wma(音频)<br>
 lim(x -&gt;+∞)  x/[sqrt(x^2 +1) + x]<br>
 =  x/[sqrt(x^2)+x] = x/(x+x) = 1/2<br>
 <img src="https://yiwyn.github.io/post-images/1586621126540.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据库知识点]]></title>
-        <id>https://yiwyn.github.io/post/shu-ju-ku-zhi-shi-dian/</id>
-        <link href="https://yiwyn.github.io/post/shu-ju-ku-zhi-shi-dian/">
-        </link>
-        <updated>2020-04-09T20:43:27.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>
-<p>数据库：DB（DataBase）</p>
-</li>
-<li>
-<p>数据库管理系统：DBMS （Data Base Manager System），是科学组织数据和存储数据，并高效获取和维护数据任务的一个<strong>系统软件</strong>，是位于用户和操作系统之间的数据管理软件。是DBS（数据库系统）的核心。</p>
-</li>
-<li>
-<p>数据库系统：DBS，指在计算机系统中引入数据库后的系统<br>
-包括</p>
-<blockquote>
-<p>硬件系统<br>
-系统软件（操作系统，开发软件，DBMS等）<br>
-数据库应用系统（DBAS,application）<br>
-各类人员（DBA，系统分析员，应用程序员，用户）</p>
-</blockquote>
-</li>
-<li>
-<p>数据库系统的特点：数据结构化（同文件系统的本质区别）、数据共享性好、数据独立性好、数据存储粒度小、为用户提供友好接口</p>
-</li>
-</ul>
-<p>数据模型:层次模型、网状模型、关系模型（广泛使用）。<br>
-<strong>关系模型</strong>：实体（entity）和联系（relationship）构成的。E-R模型（实体-联系模型）<br>
-实体之间的关系：一对一、一对多、多对多。</p>
-<p>二维表的列称为：属性/字段<br>
-二维表的行称为：元组/记录</p>
-<ul>
-<li>
-<p>关系运算</p>
-<ul>
-<li>传统：并、交、差、笛卡尔乘积</li>
-<li>专门：选择、连接、投影</li>
-</ul>
-</li>
-<li>
-<p>查询类型</p>
-<ul>
-<li>选择查询（单表查询、连接查询）、交叉表查询</li>
-<li>操作查询（更新、追加、删除、生成表）</li>
-</ul>
-</li>
-</ul>
 ]]></content>
     </entry>
 </feed>
