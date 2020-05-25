@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Blog</title>
-    <updated>2020-05-25T16:47:01.312Z</updated>
+    <updated>2020-05-25T17:38:02.604Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Access2010知识点]]></title>
+        <id>https://yiwyn.github.io/post/access2010-zhi-shi-dian/</id>
+        <link href="https://yiwyn.github.io/post/access2010-zhi-shi-dian/">
+        </link>
+        <updated>2020-05-25T16:47:38.000Z</updated>
+        <content type="html"><![CDATA[<p>数据库管理系统Access是一种<strong>关系型</strong>数据库管理系统(RDBMS),其数据文件扩展名为.accdb,由六组对象组成   <strong>表,查询,窗体,报表,宏,模块</strong><br>
+特点:启动后<font color=red ><b>不会</b></font>自动创建空白数据库,只能打开一个<br>
+<strong>三个层次:</strong><br>
+第一层:(表/查询,基本对象)<br>
+第二层:(窗体/报表,面向对象)<br>
+第三层:(宏/模块,高级对象)</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SQL语句及其通配符]]></title>
         <id>https://yiwyn.github.io/post/sql-yu-ju-ji-qi-tong-pei-fu/</id>
@@ -898,26 +912,6 @@ lim(x -&gt;+∞)  x/[sqrt(x^2 +1) + x]<br>
 </li>
 <li>
 <p>数据库系统的特点：数据结构化（同文件系统的本质区别）、数据共享性好、数据独立性好、数据存储粒度小、为用户提供友好接口</p>
-</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数字多媒体]]></title>
-        <id>https://yiwyn.github.io/post/ji-suan-ji/</id>
-        <link href="https://yiwyn.github.io/post/ji-suan-ji/">
-        </link>
-        <updated>2020-04-09T20:24:55.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>多媒体计算机</strong></p>
-<ul>
-<li>
-<p>数字多媒体计算机四大特点:<strong>多样性、交互性、集成性、实时性</strong></p>
-</li>
-<li>
-<p>多媒体计算机包括：<strong>计算机技术、通信技术、现代媒体技术</strong></p>
-</li>
-<li>
-<p>多媒体个人计算机：<strong>MPC</strong>，一般包括 光驱、音频卡、视频卡、交互控制接口等。</p>
 </li>
 </ul>
 ]]></content>
