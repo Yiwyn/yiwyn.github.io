@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yiwyn.github.io</id>
     <title>Yiwyn&apos;Blog</title>
-    <updated>2020-05-25T17:52:31.316Z</updated>
+    <updated>2020-05-27T15:52:32.617Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yiwyn.github.io"/>
     <link rel="self" href="https://yiwyn.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://yiwyn.github.io/images/avatar.png</logo>
     <icon>https://yiwyn.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Yiwyn&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[二元函数的极值]]></title>
+        <id>https://yiwyn.github.io/post/er-yuan-han-shu-de-ji-zhi/</id>
+        <link href="https://yiwyn.github.io/post/er-yuan-han-shu-de-ji-zhi/">
+        </link>
+        <updated>2020-05-27T15:02:45.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>二元函数取得极值的必要条件</strong></p>
+<p>设函数z = f(x,y) 在点(A,B)具有偏导数,且在点(A,B)处具有极值,则有<font color= red>fx(x,y) = 0 , fy(x,y) = 0</font><br>
+**说明:**fx(x,y) = 0 , fy(x,y) = 0同时成立的点为z=f(x,y)的驻点,<strong>具有偏导数的函数的极值点必定是驻点</strong>.</p>
+<p><strong>二元函数取得极值的充分条件</strong><br>
+设函数z = f(x,y)在带你(X,Y)处具有一阶及二阶连续偏导数,又fx(X,Y) = 0,fy(X,Y) = 0 , 令fxx(X,Y) = A ,    fxy(X,Y) = B ,   fyy(X,Y) = C ,则f(x,y)在点(X,Y)处是否取得到极值的条件如下:<br>
+(1)AC - B^2 &gt;0 时具有极值,且当A&lt;0时有极大值,当A&gt;0时有极小值;<br>
+(2)AC - B^2 &lt;0 时没有极值<br>
+(3)AC - B^2 =0 时可能存在也可能不存在.(无法确定)<br>
+<img src="https://yiwyn.github.io/post-images/1590594740495.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[窗口辨识！]]></title>
         <id>https://yiwyn.github.io/post/chuang-kou-bian-shi/</id>
@@ -853,53 +870,6 @@ wma(音频)<br>
 <p>189.1951年荣获“人民艺术家”称号的是：C.老舍</p>
 <p>190.同属道家学派的是： D.老子和庄子</p>
 <p>191.唐宋古文八大家之首是：B.韩愈</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[极限问题常用解决方法]]></title>
-        <id>https://yiwyn.github.io/post/ji-xian-wen-ti-chang-yong-jie-jue-fang-fa/</id>
-        <link href="https://yiwyn.github.io/post/ji-xian-wen-ti-chang-yong-jie-jue-fang-fa/">
-        </link>
-        <updated>2020-04-11T15:30:20.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>极限存在的条件</strong></p>
-<blockquote>
-<p>函数极限存在的充要条件:左右极限存在且相等</p>
-</blockquote>
-<p><strong>常用的解决方法</strong></p>
-<ul>
-<li>洛必达法则
-<blockquote>
-<p>当要求计算的函数满足 0/0 or ∞/无穷 时,可以对其上下求导.</p>
-</blockquote>
-</li>
-<li>熟练使用等价无穷小
-<blockquote>
-<p>在进行下一步操作时可以先看一下等价无穷小是否可以减少问题的复杂度</p>
-</blockquote>
-</li>
-<li>直接带入
-<blockquote>
-<p>简单粗暴,能直接带入计算的就带入.</p>
-</blockquote>
-</li>
-<li>两个重要极限<br>
-当x -&gt; 0时 sinx/x=1    (1+x)^(1/x) = e</li>
-</ul>
-<p><font color = red  size =6> 小技巧</font></p>
-<ul>
-<li>当x -&gt; +∞ 时
-<blockquote>
-<p>x+1 =x 显而易见 可以扩展到 x + C = x (无穷大的数不受影响)<br>
-同理(x^2 + x )/(x+1)  -&gt; 则可以变成 (x^2 + x )/x  -&gt;进一步化简发现 (x+1)/1-&gt;x<br>
-根据上面的式子我们可以推断出:<br>
-当无穷和常数加减运算时可以直接省去常数. 同样的 而分子分母同时出现x的情况下 同时除x也可以得到 x+常数的情况 .</p>
-</blockquote>
-</li>
-</ul>
-<p><strong>举个例子:(sqrt()表示根号)</strong><br>
-lim(x -&gt;+∞)  x/[sqrt(x^2 +1) + x]<br>
-=  x/[sqrt(x^2)+x] = x/(x+x) = 1/2<br>
-<img src="https://yiwyn.github.io/post-images/1586621126540.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
