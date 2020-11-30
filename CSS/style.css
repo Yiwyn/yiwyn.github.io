@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;    
+}
+
+/* header部分 */
+
+body{
+  
+    background: #FEAC5E; 
+    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  
+    background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
+
+}
+
+.menu{
+   display: flex;
+   justify-content: left;
+   padding-top: 0.3%;
+   padding-bottom: 0.3%;
+}
+
+
+ul{
+    position: relative;
+    display: flex;
+	margin-left: 5rem;
+}
+ul li{
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.slider{
+    width: 100px;
+    height: 40px;
+    background-color:#F0912A;
+    border-radius: 8px;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    z-index: -1;
+    transition: all ease 0.4s;
+    box-shadow: 0 0 5px 1px white inset;
+    
+}
+
+/* li:nth-child(1):hover  ~.slider{
+    left: 8px;
+}
+li:nth-child(2):hover  ~.slider{
+    left: 128px;
+}
+li:nth-child(3):hover  ~.slider{
+    left:248px;
+}
+li:nth-child(4):hover  ~.slider{
+    left: 368px;
+}
+li:nth-child(5):hover  ~.slider{
+    left: 488px;
+} */
+
+
+/* nav 部分 */
+nav{
+    position: absolute;
+    float: left;
+    width: 10%;
+    height: 80%; 
+    margin: 3% 1%;
+    z-index: 20;
+}
+nav .panel{
+    position: absolute;
+    border-radius: 15px;
+    background-color: wheat;
+    width:4%;
+    height: 100%;
+   
+    transition: ease-in-out 0.6s;
+}
+
+nav:hover .panel{
+    width: 100%;
+    
+}
+
+/* section部分 */
+section{
+    position: relative;
+    height: 90%;
+    width:95%;
+    margin-left: 1%;
+}
+
+section .cardClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-out 0.6s;
+    box-shadow: 3px 3px 5px 1px rgb(97, 97, 97);
+    border-radius: 20px;
+}
+
+
+#sectionPaenl1{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    z-index: 0;
+}
+
+#sectionPaenl2{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+   
+    z-index: -1;
+}
+#sectionPaenl3{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+   
+    z-index: -2;
+}
+#sectionPaenl4{
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    z-index: -3;
+  
+}
+#sectionPaenl5{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    z-index: -4;
+ 
+}
+
+
+.frameWindows{
+    height: 95%;
+    width:  95%;
+    
+}
