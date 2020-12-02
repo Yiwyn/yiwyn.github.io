@@ -12,9 +12,10 @@ html,body{
 
 body{
   
-    background: #FEAC5E; 
-    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  
-    background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #505050, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #505050, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -46,7 +47,7 @@ ul li a {
 .slider{
     width: 100px;
     height: 40px;
-    background-color:#F0912A;
+    background-color:#949494;
     border-radius: 8px;
     position: absolute;
     left: 10px;

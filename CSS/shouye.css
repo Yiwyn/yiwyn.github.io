@@ -1,0 +1,140 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+body {
+
+	background: #EFEFBB;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.box {
+	margin: 2rem;
+}
+
+#articles {
+	margin-top: 15rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#articles li {
+	margin: 1rem 0;
+}
+
+
+.articlePanel {
+	display: flex;
+	flex-direction: column;
+	width: 28rem;
+	height: 10rem;
+	background-color: #f1f1f1;
+	border-radius: 1.2rem;
+	padding: 1rem;
+	box-shadow: 0px 0px 0.5rem 0.1rem gray;
+	transition: ease-out 0.3s;
+}
+
+.articlePanel a {
+	position: relative;
+	text-decoration: none;
+	color: #1f353b;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	transition: ease-out 0.3s;
+}
+
+.articlePanel a span::before {
+	content: " ";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0.2rem;
+	top: 2.1rem;
+	background-color: #4f8796;
+	transition: ease-out 0.2s;
+}
+
+.articlePanel a span:hover::before {
+	animation: underLine 0.7s;
+}
+
+@keyframes underLine {
+	0% {
+		width: 0;
+	}
+
+
+	100% {
+		width: 100%;
+		opacity: 0;
+	}
+}
+
+
+.articlePanel a:hover {
+
+	color: #4f8796;
+
+
+}
+
+
+.articlePanel .sampleInfo {
+	margin-top: 1rem;
+	height: 60%;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.articlePanel .sampleInfo span {
+	text-indent: 2rem;
+	color: #808080;
+}
+
+
+.articlePanel .sampleInfo img {
+	display: block;
+	height: 100%;
+}
+
+.articlePanel:hover {
+	transform: scale(1.02);
+}
+
+.articleFooter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 10%;
+}
+
+.articleFooter #data {
+	color: #b0b0b0;
+	font-size: 0.8rem;
+}
+
+
+
+#header {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	transition: 0.8s;
+}
+
+#header img {
+	width: 100%;
+
+}
