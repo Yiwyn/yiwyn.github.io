@@ -128,13 +128,58 @@ body {
 
 
 #header {
+	position: relative;
 	overflow: hidden;
 	height: 100%;
 	width: 100%;
 	transition: 0.8s;
+	background: url(../img/bg.jpg) no-repeat fixed;
+	background-position: 50% 50%;
+	background-size: 100%;
 }
 
 #header img {
 	width: 100%;
+}
 
+#header .MyInfo {
+	position: absolute;
+	width: 50%;
+	height: 25%;
+	top: 25%;
+	left: 25%;
+	z-index: 1;
+}
+
+
+#header .MyInfo1 {
+	position: absolute;
+	width: 60%;
+	height: 33%;
+	top: 20%;
+	left: 20%;
+	background: inherit;
+	filter: blur(15px);
+	border-radius: 6rem;
+	z-index: 0;
+}
+
+
+.MyInfo {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.MyInfo #touxiang {
+	width: 20rem;
+	height: 20rem;
+}
+
+.MyInfo #username {
+	font-size: 3rem;
+	color: white;
+	font-weight: bold;
 }

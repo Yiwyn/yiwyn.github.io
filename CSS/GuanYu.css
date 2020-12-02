@@ -20,7 +20,7 @@ body {
 }
 
 .background {
-	height: 30rem;
+	height: 25rem;
 	overflow: hidden;
 	position: relative;
 }
@@ -151,7 +151,7 @@ body {
 	color: #434343;
 }
 
-#footer{
+#footer {
 	display: flex;
 	height: 5rem;
 	width: 100%;
@@ -161,5 +161,5 @@ body {
 
 #footer span {
 	color: #4b4b4b;
-	margin-top: 4rem;
+	margin-top: 3.5rem;
 }

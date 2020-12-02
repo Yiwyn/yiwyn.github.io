@@ -1,0 +1,29 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+header {
+	text-align: center;
+	height: 30%;
+
+}
+
+header img {
+	width: 100%;
+	filter: blur(5px);
+	transform: translateY(-35rem);
+}
+
+#ContentTitle {
+	font-weight: bold;
+	font-size: 2.5rem;
+	text-align: center;
+}

@@ -76,7 +76,7 @@ li:nth-child(5):hover  ~.slider{
 
 
 /* nav 部分 */
-nav{
+/* nav{
     position: absolute;
     float: left;
     width: 10%;
@@ -98,7 +98,7 @@ nav:hover .panel{
     width: 100%;
     
 }
-
+ */
 /* section部分 */
 section{
     position: relative;
