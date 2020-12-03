@@ -1,0 +1,36 @@
+html,
+body {
+	width: 100%;
+}
+
+#tags {
+	width: 80%;
+	text-align: center;
+	margin-top: 1rem;
+
+}
+
+#tags ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.tag {
+	padding: 0.3rem 1rem;
+	margin: 0.5rem 1rem;
+	background-color: ghostwhite;
+	border-radius: 0.8rem;
+	text-align: center;
+	transition: ease-in 0.2s; 
+	box-shadow: 5px 5px 8px 1px #2c2c2c;
+}
+
+.tag a {
+	text-decoration: none;
+	color: #3f3f3f;
+}
+
+.tag:hover {
+	transform: scale(1.1);
+}

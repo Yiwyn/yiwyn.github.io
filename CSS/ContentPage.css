@@ -11,19 +11,63 @@ body {
 }
 
 header {
-	text-align: center;
+	display: flex;
+
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	height: 30%;
+	background-color: #B0B0B0;
 
 }
-
-header img {
-	width: 100%;
-	filter: blur(5px);
-	transform: translateY(-35rem);
+.cancelIndex{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: green;
 }
 
 #ContentTitle {
+	
 	font-weight: bold;
 	font-size: 2.5rem;
 	text-align: center;
+	color: #2a2a2a;
+}
+
+#Content_dateinfo {
+	color: #5d5d5d;
+}
+
+#ContentPage_Main{
+	height: 70%;
+	display: flex;
+	flex-direction: row;
+}
+
+#ContentPage_Main #left{
+	width: 12.5%;	
+}
+#ContentPage_Main #right{
+	width: 12.5%;
+}
+
+#ContentPage_Main .center {
+	width: 75%;
+}
+#ContentPage_Main .center #contentPic{
+	background-color: red;
+	height: 50px;
+}
+#ContentPage_Main .center #contentFooter{
+	background-color: blue;
+	height: 50px;
+}
+
+#ContentPage_Main .center #contentText
+{
+	color: #1a1a1a;
+	text-align: left;
+	font-size: 1.5rem;
+	text-indent: 2rem;
 }
