@@ -1,6 +1,5 @@
+var clickCount = -1;
 window.onload = function() {
-	var clickCount = -1;
-
 
 
 
@@ -24,12 +23,11 @@ window.onload = function() {
 	var topBtn = document.getElementById("topBtn");
 	topBtn.onclick = function() {
 		window.scrollTo(0, 0);
-		clickCount--;
+
 	}
 	var bottonBtn = document.getElementById("bottonBtn");
 	bottonBtn.onclick = function() {
 		window.scrollTo(0, document.body.scrollHeight);
-		clickCount--;
 	}
 
 }
