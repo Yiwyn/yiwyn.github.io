@@ -73,17 +73,17 @@
 }
 
 
-#content_box{
+#content_box {
 	transition: ease-in 0.6s;
 }
 
 
 .main ul .days:nth-child(2) li:hover .myDayContent #content_box {
-	transform: scaleX(0.75);
+	transform: scaleX(0.69);
 }
 
-.main ul .days:nth-child(4) li:hover .myDayContent #content_box{
-	transform: scaleX(0.75);
+.main ul .days:nth-child(4) li:hover .myDayContent #content_box {
+	transform: scaleX(0.69);
 }
 
 

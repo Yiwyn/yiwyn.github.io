@@ -75,7 +75,6 @@ body {
 .background #about:hover {
 	filter: blur(4px) drop-shadow(0 0 5px #37d1ff);
 	transform: scale(1.1);
-
 }
 
 
