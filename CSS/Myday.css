@@ -113,7 +113,9 @@ center {
 	background-image: linear-gradient(to top, #ffffff, #000000);
 	position: absolute;
 	z-index: -10;
-	transform: translateY(-5rem);
+	
+	transform: scaleY(1.1);
+	
 }
 
 .main ul li .dayscontent li:hover {
