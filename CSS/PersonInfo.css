@@ -1,0 +1,150 @@
+:root {
+	--primary-color: #71b3dd;
+	--primary-dark-color: #4489b5;
+	--text-color-gray: #8b979f;
+	--text-color-light-gray: #c1c7cb;
+	--text-color-dark-gray: #5a6f7c;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	box-sizing: border-box;
+	font-family: "Raleway", "PingFang SC",
+		"Microsoft Yahei", sans-serif;
+}
+
+.wrapper {
+
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.profile-card {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	column-gap: 12px;
+	width: 627px;
+	height: 374px;
+	box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.18);
+	border-radius: 1rem;
+}
+
+.profile-image {
+
+	grid-column: 9/ 13;
+	max-width: 238px;
+	height: 100%;
+
+	overflow: hidden;
+
+	align-self: start;
+
+	justify-self: end;
+}
+
+.profile-image img {
+
+	width: 210%;
+	transform: translate(-70px, -22px);
+	object-fit: cover;
+}
+
+.content {
+	grid-column: 1 / 8;
+	padding: 38px 28px 20px 33px;
+	position: relative;
+}
+
+nav {
+	margin-bottom: 24px;
+	display: flex;
+	position: relative;
+}
+
+nav a {
+	color: var(--text-color-gray);
+	text-decoration: none;
+}
+
+nav a.active {
+	color: var(--primary-dark-color);
+}
+
+nav a:not(:last-child) {
+	margin-right: 40px;
+}
+
+nav .indicator {
+	height: 2px;
+	background: var(--primary-dark-color);
+	bottom: -7px;
+	left: 0;
+	position: absolute;
+	transition: 0.4s;
+}
+
+.content section {
+
+	position: absolute;
+
+	opacity: 0;
+
+	transition: 0.3s ease-out;
+}
+
+.content section.active-section {
+
+	opacity: 1;
+}
+
+
+.personal-info {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.title h1 {
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.title p {
+	color: var(--text-color-gray);
+	font-size: 1em;
+	margin: 6px 0 18px 0;
+}
+
+
+
+
+.about-me {
+	color: var(--text-color-dark-gray);
+	font-weight: 300;
+	text-align: justify;
+}
+
+
+footer {
+	margin-top: 70px;
+}
+
+footer ul {
+	display: flex;
+}
+
+footer ul li {
+	list-style: none;
+}
+
+footer ul li:not(:last-child) {
+	margin-right: 30px;
+}
+
+footer .fab {
+	color: var(--primary-color);
+	font-size: 24px;
+}
