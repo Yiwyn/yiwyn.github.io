@@ -15,6 +15,7 @@
 		"Microsoft Yahei", sans-serif;
 }
 
+
 .wrapper {
 
 	display: grid;
@@ -52,6 +53,9 @@
 	transform: translate(-70px, -22px);
 	object-fit: cover;
 }
+
+
+
 
 .content {
 	grid-column: 1 / 8;
@@ -147,4 +151,16 @@ footer ul li:not(:last-child) {
 footer .fab {
 	color: var(--primary-color);
 	font-size: 24px;
+}
+
+#content1{
+	opacity: 1;
+	transition: 0.6s;
+	
+}
+
+#content2{
+	transform: translateY(-5rem);
+	opacity: 0;
+	transition: 0.6s;
 }
